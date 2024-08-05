@@ -24,9 +24,9 @@ Show a few visualization of the data and say a few words about what you see.
 
 <img width="638" alt="Screen Shot 2024-08-05 at 4 03 40 PM" src="https://github.com/user-attachments/assets/3ef7bd72-6e29-4e6c-b40c-6fd37cb9315f">
 
-![Screen Shot 2024-07-24 at 11.22.59 PM.png](attachment:fd0f7b55-4a94-47c7-b572-0e9864fa18de.png)
+<img width="865" alt="Screen Shot 2024-08-05 at 4 51 55 PM" src="https://github.com/user-attachments/assets/d12eaeca-3e15-46fe-b8fe-b678fdd532fa">
 
-![Screen Shot 2024-07-24 at 11.24.26 PM.png](attachment:f71a2f68-9b95-49ac-ba26-20dd5479af45.png)
+<img width="918" alt="Screen Shot 2024-08-05 at 4 52 39 PM" src="https://github.com/user-attachments/assets/d4506392-38d0-4f7e-a64c-3a212e17dc23">
 
 <img width="636" alt="Screen Shot 2024-08-05 at 4 05 24 PM" src="https://github.com/user-attachments/assets/3678d221-aa33-4a2d-9564-0f37229809c6">
 
@@ -63,25 +63,40 @@ I used the xgb.train function to train the XGBoost model. I specified the parame
 Evaluation sets (evallist) for monitoring performance on both training and validation data, and early stopping to prevent overfitting:
 Any difficulties? How did you resolve them?
 Fortunately, there was no difficulties while training. 
-Performance Comparison
+# Performance Comparison
 Clearly define the key performance metric(s).
 Show/compare results in one table.
 Show one (or few) visualization(s) of results, for example ROC curves.
-Conclusions
-State any conclusions you can infer from your work. Example: LSTM work better than GRU.
-Future Work
-What would be the next thing that you would try.
-What are some other studies that can be done starting from here.
-How to reproduce results
-In this section, provide instructions at least one of the following:
-Reproduce your results fully, including training.
-Apply this package to other data. For example, how to use the model you trained.
-Use this package to perform their own study.
-Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
-Overview of files in repository
-Describe the directory structure, if any.
+# Conclusions
 
-List all relavent files and describe their role in the package.
+The exploratory data analysis (EDA) revealed valuable insights into the dataset, such as the distribution of age, height, and weight, 
+and the most promising features for predicting smoking status. Data preprocessing steps like handling outliers and normalizing numerical 
+features were performed to improve model performance.
+
+ Both the Decision Tree and XGBoost models showed good performance on the test set, achieving high accuracy, precision, recall, and F1-score. 
+ The XGBoost model slightly outperformed the Decision Tree, indicating its potential for more accurate predictions.
+
+The confusion matrices and ROC curves provided further insights into the models' performance. The XGBoost model demonstrated a higher 
+area under the ROC curve (AUC), suggesting its superior ability to discriminate between smokers and non-smokers.
+
+Overall, the machine learning models developed in this project can be valuable tools for predicting smoking status based on individual 
+characteristics. Further improvements can be explored by fine-tuning model parameters, incorporating additional features, or experimenting 
+with other advanced machine learning algorithms.
+# Future Work
+- Hyperparameter tuning for both models.
+- Feature engineering to create more informative features.
+- Trying other algorithms like logistic regression or support vector machines.
+Studies that can be done from here are:
+Ensemble Methods:Combine predictions from multiple models (e.g., Decision Tree, XGBoost, Logistic Regression) using techniques like bagging or boosting to create a more robust and accurate model.
+External Validation: If possible, validate the model on an independent dataset to assess its generalizability and performance on unseen data.
+
+# How to reproduce results
+ - Set up an  environment
+ - Prepare your data
+ - Train the model
+ - Evaluate the model
+
+# List all relavent files and describe their role in the package.
 
 An example:
 
@@ -96,16 +111,16 @@ performance.ipynb: loads multiple trained models and compares results.
 inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
 Note that all of these notebooks should contain enough text for someone to understand what is happening.
 
-Software Setup
+# Software Setup
 List all of the required packages.
 If not standard, provide or point to instruction for installing the packages.
 Describe how to install your package.
-Data
+# Data
 Point to where they can download the data.
 Lead them through preprocessing steps, if necessary.
 Training
 Describe how to train the model
 Performance Evaluation
 Describe how to run the performance evaluation.
-Citations
+# Citations
 Provide any references.
