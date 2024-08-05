@@ -86,6 +86,7 @@ with other advanced machine learning algorithms.
 - Hyperparameter tuning for both models.
 - Feature engineering to create more informative features.
 - Trying other algorithms like logistic regression or support vector machines.
+
 Studies that can be done from here are:
 Ensemble Methods:Combine predictions from multiple models (e.g., Decision Tree, XGBoost, Logistic Regression) using techniques like bagging or boosting to create a more robust and accurate model.
 External Validation: If possible, validate the model on an independent dataset to assess its generalizability and performance on unseen data.
