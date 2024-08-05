@@ -64,9 +64,16 @@ Evaluation sets (evallist) for monitoring performance on both training and valid
 Any difficulties? How did you resolve them?
 Fortunately, there was no difficulties while training. 
 # Performance Comparison
-Clearly define the key performance metric(s).
+The metrics used to evaluate the model performance  are F-1 score, precision, recall and accuracy. 
 Show/compare results in one table.
-Show one (or few) visualization(s) of results, for example ROC curves.
+<img width="407" alt="Screen Shot 2024-08-05 at 5 22 38 PM" src="https://github.com/user-attachments/assets/7d2267e2-ab0f-4392-841e-beea4b2c3cd6">
+
+ROC curves.
+<img width="696" alt="Screen Shot 2024-08-05 at 5 25 51 PM" src="https://github.com/user-attachments/assets/220b020d-167d-41ad-af69-9b97cb731cf3">
+
+<img width="601" alt="Screen Shot 2024-08-05 at 5 26 32 PM" src="https://github.com/user-attachments/assets/fc84b657-6752-4f61-8adc-f5cb163a40aa">
+
+
 # Conclusions
 
 The exploratory data analysis (EDA) revealed valuable insights into the dataset, such as the distribution of age, height, and weight, 
