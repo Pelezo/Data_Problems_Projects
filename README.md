@@ -105,30 +105,18 @@ External Validation: If possible, validate the model on an independent dataset t
  - Evaluate the model
 
 # List all relavent files and describe their role in the package.
-
-An example:
-
-utils.py: various functions that are used in cleaning and visualizing data.
-preprocess.ipynb: Takes input data in CSV and writes out data frame after cleanup.
-visualization.ipynb: Creates various visualizations of the data.
-models.py: Contains functions that build the various models.
-training-model-1.ipynb: Trains the first model and saves model during training.
-training-model-2.ipynb: Trains the second model and saves model during training.
-training-model-3.ipynb: Trains the third model and saves model during training.
-performance.ipynb: loads multiple trained models and compares results.
-inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
-Note that all of these notebooks should contain enough text for someone to understand what is happening.
+Data_exploration_chall.ipyng-Loads and explores the dataset getting information about the dataset.
+Data_visualization_chall-Creates visualizations in order to better understand  the data.
+Data_Preprocessing_chall-Performs cleaning in the dataset, prepares the data for machine learning.
+Machine_learning_chall-Creates the models and evaluate  its perfomance. 
 
 # Software Setup
-List all of the required packages.
-If not standard, provide or point to instruction for installing the packages.
-Describe how to install your package.
+Library: numpy, scikit learn, pandas, matplotlib,spicy stats.
 # Data
-Point to where they can download the data.
-Lead them through preprocessing steps, if necessary.
-Training
-Describe how to train the model
-Performance Evaluation
-Describe how to run the performance evaluation.
+https://www.kaggle.com/competitions/playground-series-s3e24/data
+
 # Citations
-Provide any references.
+https://scikit-learn.org/stable/modules/tree.html#decision-trees
+https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html
+https://www.kaggle.com/code/dansbecker/xgboost
+https://www.w3schools.com/python/python_ml_auc_roc.asp
