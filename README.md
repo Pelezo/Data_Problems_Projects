@@ -43,10 +43,15 @@ Theses histograms helps us see the most prosmising features for Machine Learning
 The first and the forth histograns are plots of categorical values. The urine protein histogram shows the three different  urine categories. 
 
 # Problem Formulation
+
 Define:
+
 Input 
+
 Train_set.csv: A CSV file containing the training data.
+
 Test.csv: A CSV file containing the test data.
+
 Output
 submission.csv: A CSV file containing the predicted target values for the test data.
 
