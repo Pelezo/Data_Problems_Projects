@@ -13,9 +13,15 @@ Summary of the performance achieved: The metrics used to evaluate the model perf
 # Summary of Workdone
 
 # Data
-- Data:
- - Type: 
-Input: CSV file of features, output: smoker/non-smoker flag in 1st column.
+
+ #### Data:
+ 
+Type: 
+
+Input: CSV file of features
+
+output: smoker/non-smoker flag in 1st column.
+
 Size: 29.2 MB, 159256 rows and 24 columns
 Instances (Train, Test, Validation Split): how many data points? : 82248 individuals  training, 27417 for testing, 27417 for validation
 # Preprocessing / Clean up
