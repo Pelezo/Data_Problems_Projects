@@ -6,7 +6,7 @@ The repository  holds attempt to apply machine algorithms to Binary Prediction o
 
 Definition of the tasks / challenge: The challenge is defined by kaggle and its objective is to apply machine learning to predict the smoking status of an individual based on bio-signals. Machine learning will enable us to see different factors associated with the smoking status of an individual. The data is tabular(a comma separated file) with 29.2 MB. The dataset provides Information about different individuals. Information like age, height in cm weight in kg.. etc The machine task is supervised specifically binary classification.
 
-Your approach : The approach in this repository formulates the problem as classification task , using decision tree and XGBoost as the model with the full time series of features as input. We compared the performance of the 2 different  models. 
+Your approach : The approach in this repository formulates the problem as classification task , using decision tree and XGBoost as the model with the full time series of features as input. I compared the performance of the 2 different  models. 
 
 Summary of the performance achieved: The metrics used to evaluate the model performance  were F-1 score, recall, accuracy and roc curve. The best model was able to predict the smoking status of individuals. The ROC curve for XGBoost was closer to the top-left corner, indicating a stronger ability to discriminate between smokers and non-smokers. 
 
