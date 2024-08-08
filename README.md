@@ -118,10 +118,13 @@ Studies that can be done from here are:
  - Evaluate the model
 
 # List all relavent files and describe their role in the package.
-Data_exploration_chall.ipyng-Loads and explores the dataset getting information about the dataset.
-Data_visualization_chall-Creates visualizations in order to better understand  the data.
-Data_Preprocessing_chall-Performs cleaning in the dataset, prepares the data for machine learning.
-Machine_learning_chall-Creates the models and evaluate  its perfomance. 
+Data_exploration_chall.ipyng -Loads and explores the dataset getting information about the dataset.
+
+Data_visualization_chall -Creates visualizations in order to better understand  the data.
+
+Data_Preprocessing_chall -Performs cleaning in the dataset, prepares the data for machine learning.
+
+Machine_learning_chall -Creates the models and evaluate  its perfomance. 
 
 # Software Setup
 Library: numpy, scikit learn, pandas, matplotlib,spicy stats.
