@@ -66,7 +66,7 @@ High accuracy, handles complex relationships, robust to overfitting due to regul
 More complex to interpret than decision trees, requires careful tuning of hyperparameters.
 Generally outperformed the decision tree in terms of accuracy, precision, recall, and F1-score. The ROC curve also indicates strong discriminatory power.
 
-I tried decision tree model due to its simplicity and interpretability and it served as a starting point to understand the data and the problem before using a complex model. The XGBoost is a gradient boosting algorithm that is known for its high accuracy and efficiency. In this case, we used XGBoost because we wanted to achieve the best possible performance on the smoking prediction task. XGBoost is a good choice for this task because it can handle complex relationships between the features and the target variable. It is also robust to overfitting, which is a common problem with decision trees
+I tried decision tree model due to its simplicity and interpretability and it served as a starting point to understand the data and the problem before using a complex model. The XGBoost is a gradient boosting algorithm that is known for its high accuracy and efficiency. In this case, I used XGBoost because I wanted to achieve the best possible performance on the smoking prediction task. XGBoost is a good choice for this task because it can handle complex relationships between the features and the target variable. It is also robust to overfitting, which is a common problem with decision trees
 
 # Training
 Describe the training:
